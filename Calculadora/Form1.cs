@@ -23,11 +23,15 @@ namespace Calculadora
         {
             switch (((Button)sender).Text)
             {
-                case "1": label1.Text = "1";break;
+                case "AC":
+                case "C": label1.Text = ""; break;
+                default:
+                    {
+                        label1.Text += ((Button)sender).Text;
+                        break;
+                    }
 
             }
-
-            label1.Text = ((Button)sender).Text;
         }
     }
 }
