@@ -1,15 +1,32 @@
 ﻿// Calculadora 511
 
 using System;
+using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Calculadora
 {
     public partial class Form1 : Form
     {
+        private readonly PrivateFontCollection private_fonts = new PrivateFontCollection();
         public Form1()
         {
             InitializeComponent();
+
+            String fonte = "Calculadora.Resources.digital-7-mono.ttf";
+            Stream fontStream = this.GetType().Assembly.GetManifestResourceStream(fonte);
+            IntPtr data = Marshal.AllocCoTaskMem((int)fontStream.Length);
+            byte[] fontdata = new byte[fontStream.Length];
+            fontStream.Read(fontdata, 0, (int)fontStream.Length);
+            Marshal.Copy(fontdata, 0, data, (int)fontStream.Length);
+            private_fonts.AddMemoryFont(data, (int)fontStream.Length);
+            fontStream.Close();
+            Marshal.FreeCoTaskMem(data);
+            label1.Font = new Font(private_fonts.Families[0], 43);
+            label1.UseCompatibleTextRendering = true;
         }
 
         string operador = "";
