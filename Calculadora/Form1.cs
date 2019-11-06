@@ -29,12 +29,17 @@ namespace Calculadora
             label1.UseCompatibleTextRendering = true;
         }
 
-        string operador = "";
-        double visor = 0, mem = 0, num1 = 0, num2 = 0;
+        string operador;
+        double visor, mem, num1, num2;
 
+        private void reset()
+        {
+            operador = "";
+            visor = mem = num1 = num2 = 0;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            reset();
         }
 
         bool limpar = true;
@@ -55,8 +60,8 @@ namespace Calculadora
                 case "M-": mem -= visor; mostra(); break;
                 case "M+": mem += visor; mostra(); break;
                 case "√": visor = Math.Sqrt(visor); mostra(); break;
-                case "OFF": visor = 0; mem = 0; mostra(); label1.Text = ""; break;
-                case "AC": visor = 0; mem = 0; mostra(); break;
+                case "OFF": reset(); label1.Text = ""; break;
+                case "AC": reset(); mostra(); break;
                 case "C": visor = 0; mostra(); break;
                 case "+/-": visor = -visor; mostra(); break;
                 case "%": visor = visor / 100 * num1; mostra(); break;

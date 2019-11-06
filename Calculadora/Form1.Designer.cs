@@ -145,6 +145,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(107, 64);
             this.button4.TabIndex = 4;
+            this.button4.Tag = "+";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Clicar);
             // 
@@ -164,6 +165,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(107, 64);
             this.button5.TabIndex = 8;
+            this.button5.Tag = "-";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.Clicar);
             // 
@@ -624,6 +626,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
