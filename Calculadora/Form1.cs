@@ -31,6 +31,12 @@ namespace Calculadora
 
         string operador = "";
         double visor = 0, mem = 0, num1 = 0, num2 = 0;
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         bool limpar = true;
         private void mostra()
         {
@@ -53,18 +59,18 @@ namespace Calculadora
                 case "AC": visor = 0; mem = 0; mostra(); break;
                 case "C": visor = 0; mostra(); break;
                 case "+/-": visor = -visor; mostra(); break;
-                case "%":
+                case "%": visor = visor / 100 * num1; mostra(); break;
                 case "+":
                 case "-":
-                case "x":
-                case "/": operador = botao; num1 = visor; visor = 0; limpar = true; break;
+                case "×":
+                case "÷": operador = botao; num1 = visor; visor = 0; limpar = true; break;
                 case "=":
                     {
                         num2 = visor;
                         if (operador == "+") visor = num1 + num2;
                         else if (operador == "-") visor = num1 - num2;
-                        else if (operador == "x") visor = num1 * num2;
-                        else if (operador == "/") visor = num1 / num2;
+                        else if (operador == "×") visor = num1 * num2;
+                        else if (operador == "÷") visor = num1 / num2;
                         mostra();
                         break;
                     }
