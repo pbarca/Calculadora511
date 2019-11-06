@@ -20,6 +20,7 @@ namespace Calculadora
             label1.Text = Math.Abs(visor).ToString();
             if (mem != 0) memory.Visible = false; else memory.Visible = true;
             if (visor < 0) minus.Visible = false; else minus.Visible = true;
+            if (label1.Text.Length > 9) label1.Text = label1.Text.Substring(0, 9);
         }
         private void Clicar(object sender, EventArgs e)
         {
@@ -27,12 +28,15 @@ namespace Calculadora
             string botao = ((Button)sender).Text;
             switch (botao)
             {
-                case "M+": mem += visor; mostra(); break;
-                case "M-": mem -= visor; mostra(); break;
                 case "MRC": visor = mem; mostra(); break;
-                case "AC": label1.Text = ""; visor = 0; mem = 0; mostra(); break;
-                case "C": label1.Text = ""; visor = 0; mostra(); break;
+                case "M-": mem -= visor; mostra(); break;
+                case "M+": mem += visor; mostra(); break;
+                case "√": visor = Math.Sqrt(visor); mostra(); break;
+                case "OFF": visor = 0; mem = 0; mostra(); label1.Text = ""; break;
+                case "AC": visor = 0; mem = 0; mostra(); break;
+                case "C": visor = 0; mostra(); break;
                 case "+/-": visor = -visor; mostra(); break;
+                case "%":
                 case "+":
                 case "-":
                 case "x":
