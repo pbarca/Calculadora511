@@ -48,7 +48,7 @@ namespace Calculadora
         private void Clicar(object sender, EventArgs e)
         {
             if (limpar) { label1.Text = ""; limpar = false; }
-            string botao = ((Button)sender).Text;
+            string botao = ((Button)sender).Tag.ToString();
             switch (botao)
             {
                 case "MRC": visor = mem; mostra(); break;

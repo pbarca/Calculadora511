@@ -71,9 +71,13 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(207, 754);
@@ -82,15 +86,18 @@
             this.button1.Size = new System.Drawing.Size(107, 64);
             this.button1.TabIndex = 1;
             this.button1.Tag = "0";
-            this.button1.Text = "0";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Clicar);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DimGray;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(325, 754);
@@ -99,15 +106,18 @@
             this.button2.Size = new System.Drawing.Size(107, 64);
             this.button2.TabIndex = 2;
             this.button2.Tag = ".";
-            this.button2.Text = ".";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Clicar);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DimGray;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(444, 754);
@@ -116,15 +126,18 @@
             this.button3.Size = new System.Drawing.Size(107, 64);
             this.button3.TabIndex = 3;
             this.button3.Tag = "=";
-            this.button3.Text = "=";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Clicar);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DimGray;
+            this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(563, 754);
@@ -132,15 +145,18 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(107, 64);
             this.button4.TabIndex = 4;
-            this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Clicar);
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.DimGray;
+            this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(563, 682);
@@ -148,15 +164,18 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(107, 64);
             this.button5.TabIndex = 8;
-            this.button5.Text = "-";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.Clicar);
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.DimGray;
+            this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(444, 682);
@@ -165,15 +184,18 @@
             this.button6.Size = new System.Drawing.Size(107, 64);
             this.button6.TabIndex = 7;
             this.button6.Tag = "3";
-            this.button6.Text = "3";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.Clicar);
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.DimGray;
+            this.button7.BackColor = System.Drawing.Color.Transparent;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(325, 682);
@@ -182,15 +204,18 @@
             this.button7.Size = new System.Drawing.Size(107, 64);
             this.button7.TabIndex = 6;
             this.button7.Tag = "2";
-            this.button7.Text = "2";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.Clicar);
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
+            this.button8.BackColor = System.Drawing.Color.Transparent;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Location = new System.Drawing.Point(207, 682);
@@ -199,15 +224,18 @@
             this.button8.Size = new System.Drawing.Size(107, 64);
             this.button8.TabIndex = 5;
             this.button8.Tag = "1";
-            this.button8.Text = "1";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.Clicar);
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.DimGray;
+            this.button9.BackColor = System.Drawing.Color.Transparent;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(563, 537);
@@ -216,15 +244,18 @@
             this.button9.Size = new System.Drawing.Size(107, 64);
             this.button9.TabIndex = 16;
             this.button9.Tag = "÷";
-            this.button9.Text = "÷";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.Clicar);
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.DimGray;
+            this.button10.BackColor = System.Drawing.Color.Transparent;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(444, 537);
@@ -233,15 +264,18 @@
             this.button10.Size = new System.Drawing.Size(107, 64);
             this.button10.TabIndex = 15;
             this.button10.Tag = "9";
-            this.button10.Text = "9";
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.Clicar);
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.DimGray;
+            this.button11.BackColor = System.Drawing.Color.Transparent;
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Location = new System.Drawing.Point(325, 537);
@@ -250,15 +284,18 @@
             this.button11.Size = new System.Drawing.Size(107, 64);
             this.button11.TabIndex = 14;
             this.button11.Tag = "8";
-            this.button11.Text = "8";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.Clicar);
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.DimGray;
+            this.button12.BackColor = System.Drawing.Color.Transparent;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(207, 537);
@@ -267,15 +304,18 @@
             this.button12.Size = new System.Drawing.Size(107, 64);
             this.button12.TabIndex = 13;
             this.button12.Tag = "7";
-            this.button12.Text = "7";
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.Clicar);
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.DimGray;
+            this.button13.BackColor = System.Drawing.Color.Transparent;
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Location = new System.Drawing.Point(563, 609);
@@ -284,15 +324,18 @@
             this.button13.Size = new System.Drawing.Size(107, 64);
             this.button13.TabIndex = 12;
             this.button13.Tag = "×";
-            this.button13.Text = "×";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.Clicar);
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.Color.DimGray;
+            this.button14.BackColor = System.Drawing.Color.Transparent;
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Location = new System.Drawing.Point(444, 609);
@@ -301,15 +344,18 @@
             this.button14.Size = new System.Drawing.Size(107, 64);
             this.button14.TabIndex = 11;
             this.button14.Tag = "6";
-            this.button14.Text = "6";
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.Clicar);
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.Color.DimGray;
+            this.button15.BackColor = System.Drawing.Color.Transparent;
             this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Location = new System.Drawing.Point(325, 609);
@@ -318,15 +364,18 @@
             this.button15.Size = new System.Drawing.Size(107, 64);
             this.button15.TabIndex = 10;
             this.button15.Tag = "5";
-            this.button15.Text = "5";
             this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.Clicar);
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.Color.DimGray;
+            this.button16.BackColor = System.Drawing.Color.Transparent;
             this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Location = new System.Drawing.Point(207, 609);
@@ -335,15 +384,18 @@
             this.button16.Size = new System.Drawing.Size(107, 64);
             this.button16.TabIndex = 9;
             this.button16.Tag = "4";
-            this.button16.Text = "4";
             this.button16.UseVisualStyleBackColor = false;
             this.button16.Click += new System.EventHandler(this.Clicar);
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.Color.DimGray;
+            this.button20.BackColor = System.Drawing.Color.Transparent;
             this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.Color.White;
             this.button20.Location = new System.Drawing.Point(207, 391);
@@ -352,15 +404,18 @@
             this.button20.Size = new System.Drawing.Size(81, 50);
             this.button20.TabIndex = 21;
             this.button20.Tag = "MRC";
-            this.button20.Text = "MRC";
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Click += new System.EventHandler(this.Clicar);
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.Color.DimGray;
+            this.button21.BackColor = System.Drawing.Color.Transparent;
             this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.White;
             this.button21.Location = new System.Drawing.Point(563, 464);
@@ -369,15 +424,18 @@
             this.button21.Size = new System.Drawing.Size(107, 64);
             this.button21.TabIndex = 20;
             this.button21.Tag = "%";
-            this.button21.Text = "%";
             this.button21.UseVisualStyleBackColor = false;
             this.button21.Click += new System.EventHandler(this.Clicar);
             // 
             // button22
             // 
-            this.button22.BackColor = System.Drawing.Color.DimGray;
+            this.button22.BackColor = System.Drawing.Color.Transparent;
             this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.ForeColor = System.Drawing.Color.White;
             this.button22.Location = new System.Drawing.Point(444, 464);
@@ -386,15 +444,18 @@
             this.button22.Size = new System.Drawing.Size(107, 64);
             this.button22.TabIndex = 19;
             this.button22.Tag = "+/-";
-            this.button22.Text = "+/-";
             this.button22.UseVisualStyleBackColor = false;
             this.button22.Click += new System.EventHandler(this.Clicar);
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.Color.DimGray;
+            this.button23.BackColor = System.Drawing.Color.Transparent;
             this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Location = new System.Drawing.Point(325, 464);
@@ -403,15 +464,18 @@
             this.button23.Size = new System.Drawing.Size(107, 64);
             this.button23.TabIndex = 18;
             this.button23.Tag = "C";
-            this.button23.Text = "C";
             this.button23.UseVisualStyleBackColor = false;
             this.button23.Click += new System.EventHandler(this.Clicar);
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.Color.DimGray;
+            this.button24.BackColor = System.Drawing.Color.Transparent;
             this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.ForeColor = System.Drawing.Color.White;
             this.button24.Location = new System.Drawing.Point(207, 464);
@@ -420,15 +484,18 @@
             this.button24.Size = new System.Drawing.Size(107, 64);
             this.button24.TabIndex = 17;
             this.button24.Tag = "AC";
-            this.button24.Text = "AC";
             this.button24.UseVisualStyleBackColor = false;
             this.button24.Click += new System.EventHandler(this.Clicar);
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.Color.DimGray;
+            this.button17.BackColor = System.Drawing.Color.Transparent;
             this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.Location = new System.Drawing.Point(301, 391);
@@ -437,15 +504,18 @@
             this.button17.Size = new System.Drawing.Size(81, 50);
             this.button17.TabIndex = 22;
             this.button17.Tag = "M-";
-            this.button17.Text = "M-";
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.Clicar);
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.DimGray;
+            this.button18.BackColor = System.Drawing.Color.Transparent;
             this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(396, 391);
@@ -454,15 +524,18 @@
             this.button18.Size = new System.Drawing.Size(81, 50);
             this.button18.TabIndex = 23;
             this.button18.Tag = "M+";
-            this.button18.Text = "M+";
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.Clicar);
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.Color.DimGray;
+            this.button19.BackColor = System.Drawing.Color.Transparent;
             this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.ForeColor = System.Drawing.Color.White;
             this.button19.Location = new System.Drawing.Point(491, 391);
@@ -471,15 +544,18 @@
             this.button19.Size = new System.Drawing.Size(81, 50);
             this.button19.TabIndex = 24;
             this.button19.Tag = "√";
-            this.button19.Text = "√";
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Click += new System.EventHandler(this.Clicar);
             // 
             // button25
             // 
-            this.button25.BackColor = System.Drawing.Color.DimGray;
+            this.button25.BackColor = System.Drawing.Color.Transparent;
             this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button25.FlatAppearance.BorderSize = 0;
+            this.button25.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.ForeColor = System.Drawing.Color.White;
             this.button25.Location = new System.Drawing.Point(585, 391);
@@ -488,7 +564,6 @@
             this.button25.Size = new System.Drawing.Size(81, 50);
             this.button25.TabIndex = 25;
             this.button25.Tag = "OFF";
-            this.button25.Text = "OFF";
             this.button25.UseVisualStyleBackColor = false;
             this.button25.Click += new System.EventHandler(this.Clicar);
             // 
