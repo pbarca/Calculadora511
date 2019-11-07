@@ -50,6 +50,19 @@ namespace Calculadora
             if (visor < 0) minus.Visible = false; else minus.Visible = true;
             if (label1.Text.Length > 9) label1.Text = label1.Text.Substring(0, 9);
         }
+
+        private void calcula()
+        {
+            if (num2 == 0) num2 = visor;
+            if (operador == "+") visor = num1 + num2;
+            else if (operador == "-") visor = num1 - num2;
+            else if (operador == "×") visor = num1 * num2;
+            else if (operador == "÷") visor = num1 / num2;
+            mostra();
+            num1 = visor;
+            visor = 0;
+            limpar = true;
+        }
         private void Clicar(object sender, EventArgs e)
         {
             if (limpar) { label1.Text = ""; limpar = false; }
@@ -68,31 +81,19 @@ namespace Calculadora
                 case "+":
                 case "-":
                 case "×":
-                case "÷": operador = botao; num1 = visor; visor = 0; limpar = true; break;
-                case "=":
+                case "÷":
                     {
-                        num2 = visor;
-                        if (operador == "+") visor = num1 + num2;
-                        else if (operador == "-") visor = num1 - num2;
-                        else if (operador == "×") visor = num1 * num2;
-                        else if (operador == "÷") visor = num1 / num2;
-                        mostra();
+                        if (num1 == 0) num1 = visor;
+                        else calcula();
+                        operador = botao;
+                        visor = 0;
+                        limpar = true;
                         break;
                     }
+                case "=": calcula(); break;
                 case ".":
                     {
-                        string backup = label1.Text;
-                        mostra();
-                        try
-                        {
-                            label1.Text += ",";
-                            visor = Convert.ToDouble(label1.Text);
-                        }
-                        catch
-                        {
-                            Console.Beep();
-                            label1.Text = backup;
-                        }
+                        if (!label1.Text.Contains(",")) label1.Text += ",";
                         break;
                     }
                 default:
