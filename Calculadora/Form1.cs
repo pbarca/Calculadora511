@@ -91,11 +91,7 @@ namespace Calculadora
                         break;
                     }
                 case "=": calcula(); break;
-                case ".":
-                    {
-                        if (!label1.Text.Contains(",")) label1.Text += ",";
-                        break;
-                    }
+                case ".": if (!label1.Text.Contains(",")) label1.Text += ","; break;
                 default:
                     {
                         label1.Text += botao;
