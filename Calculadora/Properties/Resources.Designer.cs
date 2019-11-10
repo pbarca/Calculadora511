@@ -69,15 +69,5 @@ namespace Calculadora.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Byte[].
-        /// </summary>
-        internal static byte[] digital_7_mono {
-            get {
-                object obj = ResourceManager.GetObject("digital_7_mono", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
