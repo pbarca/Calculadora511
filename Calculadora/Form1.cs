@@ -48,11 +48,29 @@ namespace Calculadora
         }
         private void adiciona(string botao)
         {
-            if (limpar) { label1.Text = "0"; limpar = false; }
+            if (limpar)
+            {
+                label1.Text = "0";
+                minus.Visible = true;
+                limpar = false;
+            }
             if (label1.Text == "0") label1.Text = botao;
             else label1.Text += botao;
             if (label1.Text.Length > 9) label1.Text = label1.Text.Substring(0, 9);
-            visor = Convert.ToDouble(label1.Text);
+            visor = ecra();
+        }
+        private double ecra()
+        {
+            try
+            {
+                visor = Convert.ToDouble(label1.Text);
+            }
+            catch
+            {
+                visor = 0;
+            }
+            if (!minus.Visible) visor = -visor;
+            return visor;
         }
         private void Clicar(object sender, EventArgs e)
         {
@@ -60,14 +78,14 @@ namespace Calculadora
             switch (botao)
             {
                 case "MRC": visor = mem; mostra(); break;
-                case "M-": mem -= visor; mostra(); break;
-                case "M+": mem += visor; mostra(); break;
-                case "√": visor = Math.Sqrt(visor); mostra(); break;
-                case "OFF": reset(); label1.Text = ""; break;
+                case "M-": mem -= ecra(); mostra(); break;
+                case "M+": mem += ecra(); mostra(); break;
+                case "√": visor = Math.Sqrt(ecra()); mostra(); break;
+                case "OFF": reset(); mostra(); label1.Text = ""; break;
                 case "AC": reset(); mostra(); break;
                 case "C": visor = 0; mostra(); break;
-                case "+/-": visor = -visor; mostra(); break;
-                case "%": visor = visor / 100 * num1; mostra(); break;
+                case "+/-": visor = -ecra(); mostra(); break;
+                case "%": visor = ecra() / 100 * num1; mostra(); break;
                 case "+":
                 case "-":
                 case "×":
